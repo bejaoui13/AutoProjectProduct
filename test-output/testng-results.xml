@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="45405" started-at="2023-11-22T23:22:08 GMT" finished-at="2023-11-22T23:22:53 GMT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="45405" started-at="2023-11-22T23:22:08 GMT" finished-at="2023-11-22T23:22:53 GMT">
+      <class name="com.tutorial.testcase.RegisteTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.tutorial.testcase.RegisteTest@3aeaafa6]" name="setup" is-config="true" duration-ms="13882" started-at="2023-11-22T23:22:08 GMT" finished-at="2023-11-22T23:22:22 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="resgisterwithMondotaryField()[pri:0, instance:com.tutorial.testcase.RegisteTest@3aeaafa6]" name="resgisterwithMondotaryField" duration-ms="2837" started-at="2023-11-22T23:22:22 GMT" finished-at="2023-11-22T23:22:25 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resgisterwithMondotaryField -->
+        <test-method status="PASS" signature="down()[pri:0, instance:com.tutorial.testcase.RegisteTest@3aeaafa6]" name="down" is-config="true" duration-ms="779" started-at="2023-11-22T23:22:25 GMT" finished-at="2023-11-22T23:22:25 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- down -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.tutorial.testcase.RegisteTest@3aeaafa6]" name="setup" is-config="true" duration-ms="11693" started-at="2023-11-22T23:22:25 GMT" finished-at="2023-11-22T23:22:37 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="resgisterwithEmailExiste()[pri:1, instance:com.tutorial.testcase.RegisteTest@3aeaafa6]" name="resgisterwithEmailExiste" duration-ms="1965" started-at="2023-11-22T23:22:37 GMT" finished-at="2023-11-22T23:22:39 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resgisterwithEmailExiste -->
+        <test-method status="PASS" signature="down()[pri:0, instance:com.tutorial.testcase.RegisteTest@3aeaafa6]" name="down" is-config="true" duration-ms="789" started-at="2023-11-22T23:22:39 GMT" finished-at="2023-11-22T23:22:40 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- down -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.tutorial.testcase.RegisteTest@3aeaafa6]" name="setup" is-config="true" duration-ms="11788" started-at="2023-11-22T23:22:40 GMT" finished-at="2023-11-22T23:22:52 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="resgisterwitoutAnyDetail()[pri:2, instance:com.tutorial.testcase.RegisteTest@3aeaafa6]" name="resgisterwitoutAnyDetail" duration-ms="884" started-at="2023-11-22T23:22:52 GMT" finished-at="2023-11-22T23:22:52 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resgisterwitoutAnyDetail -->
+        <test-method status="PASS" signature="down()[pri:0, instance:com.tutorial.testcase.RegisteTest@3aeaafa6]" name="down" is-config="true" duration-ms="678" started-at="2023-11-22T23:22:53 GMT" finished-at="2023-11-22T23:22:53 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- down -->
+      </class> <!-- com.tutorial.testcase.RegisteTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

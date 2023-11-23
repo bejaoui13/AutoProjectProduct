@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite Test Auto]">
+  <test thread-count="5" name="Test tuto(failed)">
+    <classes>
+      <class name="com.tutorial.testcase.Registe">
+        <methods>
+          <include name="resgisterwithEmailExiste"/>
+          <include name="setup"/>
+          <include name="resgisterwithMondotaryField"/>
+          <include name="resgisterwitoutAnyDetail"/>
+          <include name="down"/>
+        </methods>
+      </class> <!-- com.tutorial.testcase.Registe -->
+      <class name="com.tutorial.testcase.Login">
+        <methods>
+          <include name="verifiyLoginWithCorrectCredential"/>
+          <include name="setup"/>
+          <include name="down"/>
+        </methods>
+      </class> <!-- com.tutorial.testcase.Login -->
+    </classes>
+  </test> <!-- Test tuto(failed) -->
+</suite> <!-- Failed suite [Suite Test Auto] -->
