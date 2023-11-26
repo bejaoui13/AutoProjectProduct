@@ -167,9 +167,9 @@
 					<artifactId>maven-surefire-plugin</artifactId>
 
 					<version>3.0.0-M1</version>
-
-
+ 
 					<configuration>
+<forkCount>0</forkCount>
 						<suiteXmlFiles>
 							<suiteXmlFile>src\test\resources\testng.xml</suiteXmlFile>
 						</suiteXmlFiles>
