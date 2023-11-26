@@ -31,18 +31,14 @@
 			<version>4.11</version>
 			<scope>test</scope>
 		</dependency>
-	<!--	<dependency>
+	 	<dependency>
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
 			<version>7.6.1</version>
 			<scope>compile</scope>
-		</dependency> -->
+		</dependency>  
 		
-		<dependency>
-    <groupId>org.testng</groupId>
-    <artifactId>testng</artifactId>
-    <version>7.0.0-beta1</version>
-</dependency>
+ 
 		
 		<!-- https://mvnrepository.com/artifact/org.jbehave/jbehave-core -->
 		<dependency>
@@ -176,25 +172,20 @@
 					<version>3.0.0-M1</version>
  
 					<configuration>
-<forkCount>0</forkCount>
-						<suiteXmlFiles>
+ 						<!-- <suiteXmlFiles>
 							<suiteXmlFile>src\test\resources\testng.xml</suiteXmlFile>
-						</suiteXmlFiles>
-						<!--     mvn surefire:test -Dtest=SearchTest.java         
+						</suiteXmlFiles>   
+						     mvn surefire:test -Dtest=SearchTest.java 
+						     -->        
 						<includes>
 							<include>src\test\java\com\tutorial\testcase\SearchTest.java</include>
  
 						</includes>  
-						<testFailureIgnore>true</testFailureIgnore>-->
+					<!--	<testFailureIgnore>true</testFailureIgnore>-->
 					</configuration>
 				</plugin>
 
-				<plugin>
-
-					<groupId>org.jacoco</groupId>
-					<artifactId>jacoco-maven-plugin</artifactId>
-					<version>0.8.4</version>
-				</plugin>
+				 
 
 				<plugin>
 					<artifactId>maven-clean-plugin</artifactId>
