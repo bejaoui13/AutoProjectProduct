@@ -1,113 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-23T21:40:08 GMT" name="Suite Test Auto" finished-at="2023-11-23T21:41:38 GMT" duration-ms="89849">
+  <suite started-at="2023-11-27T21:12:40 GMT" name="Surefire suite" finished-at="2023-11-27T21:13:07 GMT" duration-ms="26586">
     <groups>
     </groups>
-    <test started-at="2023-11-23T21:40:08 GMT" name="Test tuto" finished-at="2023-11-23T21:41:38 GMT" duration-ms="89849">
+    <test started-at="2023-11-27T21:12:40 GMT" name="Surefire test" finished-at="2023-11-27T21:13:07 GMT" duration-ms="26586">
       <class name="com.tutorial.testcase.SearchTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.tutorial.testcase.SearchTest@3911c2a7]" started-at="2023-11-23T21:40:43 GMT" name="setup" finished-at="2023-11-23T21:40:51 GMT" duration-ms="7972" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tutorial.testcase.SearchTest@45dd4eda]" started-at="2023-11-27T21:12:40 GMT" name="setup" finished-at="2023-11-27T21:12:53 GMT" duration-ms="13068" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="searchProductValide()[pri:0, instance:com.tutorial.testcase.SearchTest@3911c2a7]" started-at="2023-11-23T21:40:51 GMT" name="searchProductValide" finished-at="2023-11-23T21:40:52 GMT" duration-ms="1470" status="PASS">
+        <test-method signature="searchProductValide()[pri:0, instance:com.tutorial.testcase.SearchTest@45dd4eda]" started-at="2023-11-27T21:12:53 GMT" name="searchProductValide" finished-at="2023-11-27T21:12:56 GMT" duration-ms="2692" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchProductValide -->
-        <test-method is-config="true" signature="closedriver()[pri:0, instance:com.tutorial.testcase.SearchTest@3911c2a7]" started-at="2023-11-23T21:40:52 GMT" name="closedriver" finished-at="2023-11-23T21:40:53 GMT" duration-ms="255" status="PASS">
+        <test-method is-config="true" signature="closedriver()[pri:0, instance:com.tutorial.testcase.SearchTest@45dd4eda]" started-at="2023-11-27T21:12:56 GMT" name="closedriver" finished-at="2023-11-27T21:12:56 GMT" duration-ms="490" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closedriver -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.tutorial.testcase.SearchTest@3911c2a7]" started-at="2023-11-23T21:40:53 GMT" name="setup" finished-at="2023-11-23T21:41:01 GMT" duration-ms="8661" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tutorial.testcase.SearchTest@45dd4eda]" started-at="2023-11-27T21:12:56 GMT" name="setup" finished-at="2023-11-27T21:13:05 GMT" duration-ms="8645" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="searchProductinValide()[pri:1, instance:com.tutorial.testcase.SearchTest@3911c2a7]" started-at="2023-11-23T21:41:01 GMT" name="searchProductinValide" finished-at="2023-11-23T21:41:02 GMT" depends-on-methods="com.tutorial.testcase.SearchTest.searchProductValide" duration-ms="1053" status="PASS">
+        <test-method signature="searchProductinValide()[pri:1, instance:com.tutorial.testcase.SearchTest@45dd4eda]" started-at="2023-11-27T21:13:05 GMT" name="searchProductinValide" finished-at="2023-11-27T21:13:06 GMT" depends-on-methods="com.tutorial.testcase.SearchTest.searchProductValide" duration-ms="1229" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchProductinValide -->
-        <test-method is-config="true" signature="closedriver()[pri:0, instance:com.tutorial.testcase.SearchTest@3911c2a7]" started-at="2023-11-23T21:41:02 GMT" name="closedriver" finished-at="2023-11-23T21:41:02 GMT" duration-ms="261" status="PASS">
+        <test-method is-config="true" signature="closedriver()[pri:0, instance:com.tutorial.testcase.SearchTest@45dd4eda]" started-at="2023-11-27T21:13:06 GMT" name="closedriver" finished-at="2023-11-27T21:13:07 GMT" duration-ms="343" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closedriver -->
       </class> <!-- com.tutorial.testcase.SearchTest -->
-      <class name="com.tutorial.testcase.RegisteTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.tutorial.testcase.RegisteTest@4ac3c60d]" started-at="2023-11-23T21:41:02 GMT" name="setup" finished-at="2023-11-23T21:41:11 GMT" duration-ms="8966" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="resgisterwithMondotaryField()[pri:0, instance:com.tutorial.testcase.RegisteTest@4ac3c60d]" started-at="2023-11-23T21:41:11 GMT" name="resgisterwithMondotaryField" finished-at="2023-11-23T21:41:14 GMT" duration-ms="2252" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- resgisterwithMondotaryField -->
-        <test-method is-config="true" signature="down()[pri:0, instance:com.tutorial.testcase.RegisteTest@4ac3c60d]" started-at="2023-11-23T21:41:14 GMT" name="down" finished-at="2023-11-23T21:41:14 GMT" duration-ms="247" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- down -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.tutorial.testcase.RegisteTest@4ac3c60d]" started-at="2023-11-23T21:41:14 GMT" name="setup" finished-at="2023-11-23T21:41:24 GMT" duration-ms="10485" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="resgisterwithEmailExiste()[pri:1, instance:com.tutorial.testcase.RegisteTest@4ac3c60d]" started-at="2023-11-23T21:41:24 GMT" name="resgisterwithEmailExiste" finished-at="2023-11-23T21:41:26 GMT" duration-ms="1865" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- resgisterwithEmailExiste -->
-        <test-method is-config="true" signature="down()[pri:0, instance:com.tutorial.testcase.RegisteTest@4ac3c60d]" started-at="2023-11-23T21:41:26 GMT" name="down" finished-at="2023-11-23T21:41:27 GMT" duration-ms="252" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- down -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.tutorial.testcase.RegisteTest@4ac3c60d]" started-at="2023-11-23T21:41:27 GMT" name="setup" finished-at="2023-11-23T21:41:37 GMT" duration-ms="10002" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="resgisterwitoutAnyDetail()[pri:2, instance:com.tutorial.testcase.RegisteTest@4ac3c60d]" started-at="2023-11-23T21:41:37 GMT" name="resgisterwitoutAnyDetail" finished-at="2023-11-23T21:41:37 GMT" duration-ms="862" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- resgisterwitoutAnyDetail -->
-        <test-method is-config="true" signature="down()[pri:0, instance:com.tutorial.testcase.RegisteTest@4ac3c60d]" started-at="2023-11-23T21:41:37 GMT" name="down" finished-at="2023-11-23T21:41:38 GMT" duration-ms="251" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- down -->
-      </class> <!-- com.tutorial.testcase.RegisteTest -->
-      <class name="com.tutorial.testcase.LoginTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.tutorial.testcase.LoginTest@cd3fee8]" started-at="2023-11-23T21:40:08 GMT" name="setup" finished-at="2023-11-23T21:40:19 GMT" duration-ms="10904" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifiyLoginWithCorrectCredential()[pri:1, instance:com.tutorial.testcase.LoginTest@cd3fee8]" started-at="2023-11-23T21:40:19 GMT" name="verifiyLoginWithCorrectCredential" finished-at="2023-11-23T21:40:21 GMT" duration-ms="1702" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifiyLoginWithCorrectCredential -->
-        <test-method is-config="true" signature="down()[pri:0, instance:com.tutorial.testcase.LoginTest@cd3fee8]" started-at="2023-11-23T21:40:21 GMT" name="down" finished-at="2023-11-23T21:40:21 GMT" duration-ms="257" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- down -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.tutorial.testcase.LoginTest@cd3fee8]" started-at="2023-11-23T21:40:21 GMT" name="setup" finished-at="2023-11-23T21:40:31 GMT" duration-ms="9919" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifiyLoginWithinCorrectCredential()[pri:2, instance:com.tutorial.testcase.LoginTest@cd3fee8]" started-at="2023-11-23T21:40:31 GMT" name="verifiyLoginWithinCorrectCredential" finished-at="2023-11-23T21:40:32 GMT" duration-ms="1191" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifiyLoginWithinCorrectCredential -->
-        <test-method is-config="true" signature="down()[pri:0, instance:com.tutorial.testcase.LoginTest@cd3fee8]" started-at="2023-11-23T21:40:32 GMT" name="down" finished-at="2023-11-23T21:40:32 GMT" duration-ms="259" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- down -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.tutorial.testcase.LoginTest@cd3fee8]" started-at="2023-11-23T21:40:32 GMT" name="setup" finished-at="2023-11-23T21:40:41 GMT" duration-ms="9141" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifiyLoginWithinCorrectEmail()[pri:3, instance:com.tutorial.testcase.LoginTest@cd3fee8]" started-at="2023-11-23T21:40:41 GMT" name="verifiyLoginWithinCorrectEmail" finished-at="2023-11-23T21:40:43 GMT" duration-ms="1234" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifiyLoginWithinCorrectEmail -->
-        <test-method is-config="true" signature="down()[pri:0, instance:com.tutorial.testcase.LoginTest@cd3fee8]" started-at="2023-11-23T21:40:43 GMT" name="down" finished-at="2023-11-23T21:40:43 GMT" duration-ms="281" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- down -->
-      </class> <!-- com.tutorial.testcase.LoginTest -->
-    </test> <!-- Test tuto -->
-  </suite> <!-- Suite Test Auto -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
 </testng-results>

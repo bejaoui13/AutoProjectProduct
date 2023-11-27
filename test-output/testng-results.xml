@@ -1,49 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="45405" started-at="2023-11-22T23:22:08 GMT" finished-at="2023-11-22T23:22:53 GMT">
+  <suite started-at="2023-11-26T14:56:50 GMT" name="Default suite" finished-at="2023-11-26T14:57:20 GMT" duration-ms="29893">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="45405" started-at="2023-11-22T23:22:08 GMT" finished-at="2023-11-22T23:22:53 GMT">
-      <class name="com.tutorial.testcase.RegisteTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.tutorial.testcase.RegisteTest@3aeaafa6]" name="setup" is-config="true" duration-ms="13882" started-at="2023-11-22T23:22:08 GMT" finished-at="2023-11-22T23:22:22 GMT">
+    <test started-at="2023-11-26T14:56:50 GMT" name="Default test" finished-at="2023-11-26T14:57:20 GMT" duration-ms="29893">
+      <class name="com.tutorial.testcase.SearchTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tutorial.testcase.SearchTest@481a996b]" started-at="2023-11-26T14:56:51 GMT" name="setup" finished-at="2023-11-26T14:57:05 GMT" duration-ms="14966" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="resgisterwithMondotaryField()[pri:0, instance:com.tutorial.testcase.RegisteTest@3aeaafa6]" name="resgisterwithMondotaryField" duration-ms="2837" started-at="2023-11-22T23:22:22 GMT" finished-at="2023-11-22T23:22:25 GMT">
+        <test-method signature="searchProductValide()[pri:0, instance:com.tutorial.testcase.SearchTest@481a996b]" started-at="2023-11-26T14:57:05 GMT" name="searchProductValide" finished-at="2023-11-26T14:57:07 GMT" duration-ms="1282" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- resgisterwithMondotaryField -->
-        <test-method status="PASS" signature="down()[pri:0, instance:com.tutorial.testcase.RegisteTest@3aeaafa6]" name="down" is-config="true" duration-ms="779" started-at="2023-11-22T23:22:25 GMT" finished-at="2023-11-22T23:22:25 GMT">
+        </test-method> <!-- searchProductValide -->
+        <test-method is-config="true" signature="closedriver()[pri:0, instance:com.tutorial.testcase.SearchTest@481a996b]" started-at="2023-11-26T14:57:07 GMT" name="closedriver" finished-at="2023-11-26T14:57:07 GMT" duration-ms="445" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- down -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.tutorial.testcase.RegisteTest@3aeaafa6]" name="setup" is-config="true" duration-ms="11693" started-at="2023-11-22T23:22:25 GMT" finished-at="2023-11-22T23:22:37 GMT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="resgisterwithEmailExiste()[pri:1, instance:com.tutorial.testcase.RegisteTest@3aeaafa6]" name="resgisterwithEmailExiste" duration-ms="1965" started-at="2023-11-22T23:22:37 GMT" finished-at="2023-11-22T23:22:39 GMT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- resgisterwithEmailExiste -->
-        <test-method status="PASS" signature="down()[pri:0, instance:com.tutorial.testcase.RegisteTest@3aeaafa6]" name="down" is-config="true" duration-ms="789" started-at="2023-11-22T23:22:39 GMT" finished-at="2023-11-22T23:22:40 GMT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- down -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.tutorial.testcase.RegisteTest@3aeaafa6]" name="setup" is-config="true" duration-ms="11788" started-at="2023-11-22T23:22:40 GMT" finished-at="2023-11-22T23:22:52 GMT">
+        </test-method> <!-- closedriver -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tutorial.testcase.SearchTest@481a996b]" started-at="2023-11-26T14:57:07 GMT" name="setup" finished-at="2023-11-26T14:57:19 GMT" duration-ms="12021" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="resgisterwitoutAnyDetail()[pri:2, instance:com.tutorial.testcase.RegisteTest@3aeaafa6]" name="resgisterwitoutAnyDetail" duration-ms="884" started-at="2023-11-22T23:22:52 GMT" finished-at="2023-11-22T23:22:52 GMT">
+        <test-method signature="searchProductinValide()[pri:1, instance:com.tutorial.testcase.SearchTest@481a996b]" started-at="2023-11-26T14:57:19 GMT" name="searchProductinValide" finished-at="2023-11-26T14:57:20 GMT" depends-on-methods="com.tutorial.testcase.SearchTest.searchProductValide" duration-ms="857" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- resgisterwitoutAnyDetail -->
-        <test-method status="PASS" signature="down()[pri:0, instance:com.tutorial.testcase.RegisteTest@3aeaafa6]" name="down" is-config="true" duration-ms="678" started-at="2023-11-22T23:22:53 GMT" finished-at="2023-11-22T23:22:53 GMT">
+        </test-method> <!-- searchProductinValide -->
+        <test-method is-config="true" signature="closedriver()[pri:0, instance:com.tutorial.testcase.SearchTest@481a996b]" started-at="2023-11-26T14:57:20 GMT" name="closedriver" finished-at="2023-11-26T14:57:20 GMT" duration-ms="246" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- down -->
-      </class> <!-- com.tutorial.testcase.RegisteTest -->
+        </test-method> <!-- closedriver -->
+      </class> <!-- com.tutorial.testcase.SearchTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
