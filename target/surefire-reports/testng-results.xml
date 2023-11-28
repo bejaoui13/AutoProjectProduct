@@ -2,32 +2,32 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-28T00:11:48 GMT" name="Surefire suite" finished-at="2023-11-28T00:12:09 GMT" duration-ms="21859">
+  <suite started-at="2023-11-28T00:34:13 GMT" name="Surefire suite" finished-at="2023-11-28T00:34:37 GMT" duration-ms="24178">
     <groups>
     </groups>
-    <test started-at="2023-11-28T00:11:48 GMT" name="Surefire test" finished-at="2023-11-28T00:12:09 GMT" duration-ms="21859">
+    <test started-at="2023-11-28T00:34:13 GMT" name="Surefire test" finished-at="2023-11-28T00:34:37 GMT" duration-ms="24178">
       <class name="com.tutorial.testcase.SearchTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.tutorial.testcase.SearchTest@2a32de6c]" started-at="2023-11-28T00:11:48 GMT" name="setup" finished-at="2023-11-28T00:11:58 GMT" duration-ms="10399" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tutorial.testcase.SearchTest@45dd4eda]" started-at="2023-11-28T00:34:13 GMT" name="setup" finished-at="2023-11-28T00:34:25 GMT" duration-ms="11901" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="searchProductValide()[pri:0, instance:com.tutorial.testcase.SearchTest@2a32de6c]" started-at="2023-11-28T00:11:58 GMT" name="searchProductValide" finished-at="2023-11-28T00:12:00 GMT" duration-ms="1573" status="PASS">
+        <test-method signature="searchProductValide()[pri:0, instance:com.tutorial.testcase.SearchTest@45dd4eda]" started-at="2023-11-28T00:34:25 GMT" name="searchProductValide" finished-at="2023-11-28T00:34:26 GMT" duration-ms="1094" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchProductValide -->
-        <test-method is-config="true" signature="closedriver()[pri:0, instance:com.tutorial.testcase.SearchTest@2a32de6c]" started-at="2023-11-28T00:12:00 GMT" name="closedriver" finished-at="2023-11-28T00:12:00 GMT" duration-ms="256" status="PASS">
+        <test-method is-config="true" signature="closedriver()[pri:0, instance:com.tutorial.testcase.SearchTest@45dd4eda]" started-at="2023-11-28T00:34:26 GMT" name="closedriver" finished-at="2023-11-28T00:34:26 GMT" duration-ms="269" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closedriver -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.tutorial.testcase.SearchTest@2a32de6c]" started-at="2023-11-28T00:12:00 GMT" name="setup" finished-at="2023-11-28T00:12:08 GMT" duration-ms="7904" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.tutorial.testcase.SearchTest@45dd4eda]" started-at="2023-11-28T00:34:26 GMT" name="setup" finished-at="2023-11-28T00:34:36 GMT" duration-ms="9818" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="searchProductinValide()[pri:1, instance:com.tutorial.testcase.SearchTest@2a32de6c]" started-at="2023-11-28T00:12:08 GMT" name="searchProductinValide" finished-at="2023-11-28T00:12:09 GMT" depends-on-methods="com.tutorial.testcase.SearchTest.searchProductValide" duration-ms="1218" status="PASS">
+        <test-method signature="searchProductinValide()[pri:1, instance:com.tutorial.testcase.SearchTest@45dd4eda]" started-at="2023-11-28T00:34:36 GMT" name="searchProductinValide" finished-at="2023-11-28T00:34:37 GMT" depends-on-methods="com.tutorial.testcase.SearchTest.searchProductValide" duration-ms="792" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchProductinValide -->
-        <test-method is-config="true" signature="closedriver()[pri:0, instance:com.tutorial.testcase.SearchTest@2a32de6c]" started-at="2023-11-28T00:12:09 GMT" name="closedriver" finished-at="2023-11-28T00:12:09 GMT" duration-ms="417" status="PASS">
+        <test-method is-config="true" signature="closedriver()[pri:0, instance:com.tutorial.testcase.SearchTest@45dd4eda]" started-at="2023-11-28T00:34:37 GMT" name="closedriver" finished-at="2023-11-28T00:34:37 GMT" duration-ms="212" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closedriver -->
