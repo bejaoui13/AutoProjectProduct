@@ -10,6 +10,8 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.ExtentTest;
 import com.tutorial.page.*;
 import com.tutoriall.base.*;
 
@@ -20,7 +22,8 @@ public class LoginTest extends Base {
 	LoginPage loginpage;
 	AccountPage accountpage;
 	public WebDriver driver;
-
+     
+    
 	public LoginTest() {
 		super();
 	}
@@ -40,7 +43,7 @@ public class LoginTest extends Base {
 
 	}
 
-	@Test(priority = 1)
+	@Test(priority = 0)
 	public void verifiyLoginWithCorrectCredential() {
 		loginpage.enterEmailAdresse(prop.getProperty("valideEmail"));
 		loginpage.enterPassword(prop.getProperty("passwordValid"));
@@ -51,7 +54,7 @@ public class LoginTest extends Base {
 		Assert.assertTrue(accountpage.getDispalyedEditAccountPage());
 	}
 
-	@Test(priority = 2)
+	@Test(priority = 1)
 	public void verifiyLoginWithinCorrectCredential() {
 
  		loginpage.enterPassword(com.tutorialProj.Utilities.generateemailwithTime());
@@ -62,8 +65,8 @@ public class LoginTest extends Base {
 		Assert.assertTrue(loginpage.msgerreurInvalidEmailLogin().contains(prop1.getProperty("emailPasswordWarning")));
 	}
 
-	@Test(priority = 3)
-	public void verifiyLoginWithinCorrectEmail() {
+	@Test(priority = 2)
+ 	public void verifiyLoginWithinCorrectEmail() {
 
 		driver.findElement(By.id("input-email")).sendKeys("islemisl" + generateTimeStamp() + "@gmail.com");
 		loginpage.enterPassword(prop.getProperty("passwordValid"));

@@ -1,7 +1,10 @@
 package com.tutoriall.base;
 
 
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.ExtentTest;
 import com.google.common.base.Optional;
+import com.tutorialProj.ExtentReporter;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -21,6 +24,9 @@ public class Base {
 	  WebDriver driver;
 	public Properties prop;
 	public Properties prop1;
+  
+	ExtentReports extentReporter = new ExtentReports();
+	ExtentTest extentest;
 	
 	public Base() {
 		
@@ -78,5 +84,7 @@ public class Base {
 	public void tearDown() {
 		driver.quit();
 	}
+	
+	
 
 }

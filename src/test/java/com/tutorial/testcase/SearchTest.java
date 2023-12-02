@@ -62,7 +62,7 @@ public class SearchTest extends Base {
 
 	}
 
-	@Test(priority = 1, dependsOnMethods = {"searchProductValide"})
+	@Test(dependsOnMethods = {"searchProductValide"})
 	public void searchProductinValide()
 	{
  		homepage.nameProductSearch(prop1.getProperty("invalidProduct"));
