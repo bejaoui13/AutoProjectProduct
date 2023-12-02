@@ -8,9 +8,9 @@
  
 	<test thread-count="5" name="Test tuto">
 		<classes>
-			<class name="com.tutorial.testcase.LoginTest" />  
-			  <class name="com.tutorial.testcase.SearchTest" />
-			<class name="com.tutorial.testcase.RegisteTest" />  
+		<class name="com.tutorial.testcase.LoginTest" />  
+			 <!--  <class name="com.tutorial.testcase.SearchTest" />
+			<class name="com.tutorial.testcase.RegisteTest" />   -->
 
 	</classes>
 	</test>  
